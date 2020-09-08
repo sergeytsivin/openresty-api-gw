@@ -1,3 +1,4 @@
 FROM openresty/openresty:buster-fat
 
-COPY  nginx/conf.d/ /etc/nginx/conf.d/
+COPY nginx/conf.d/ /etc/nginx/conf.d/
+COPY src/ /app/

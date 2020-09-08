@@ -1,0 +1,1 @@
+ngx.say("Lua is ok with files!")
