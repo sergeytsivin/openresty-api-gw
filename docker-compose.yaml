@@ -6,4 +6,4 @@ services:
         ports: 
             - 8080:80
         volumes: 
-            - ./nginx/conf.d/:/nginx/conf.d/
+            - ./nginx/conf.d/:/etc/nginx/conf.d/
